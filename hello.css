@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    width: 150px;
+    text-align: center;
+}
+
+.rounded-button {
+    border-radius: 12px;
+    /* Adjust the border-radius to match your rounded button */
+    padding: 10px 20px;
+    background-color: white;
+    /* Adjust the background color of the button */
+    color: #000;
+    /* Adjust the text color of the button */
+    border: 2px solid #008CBA;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    /* Smooth transition for background color change */
+}
+
+.rounded-button:active {
+    background-color: #b2cfee;
+    /* Darker color to indicate button press */
+}
